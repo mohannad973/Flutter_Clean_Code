@@ -1,0 +1,144 @@
+name: willow_care
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # view
+  percent_indicator: ^3.0.1
+  carousel_slider: ^4.0.0
+  fluttertoast: ^8.0.8
+  loading_animations: ^2.2.0
+  flutter_slidable: ^1.1.0
+  flutter_svg: ^1.0.3
+  simple_animations: ^4.0.0
+  introduction_screen: ^2.1.0
+  responsive_framework: ^0.1.4
+  flutter_typeahead: ^3.2.1
+  infinite_scroll_pagination: ^3.1.0
+  video_player: ^2.2.5
+  flutter_map: ^0.14.0
+  webview_flutter: ^2.1.0
+  flip_card: ^0.6.0
+  shimmer: ^2.0.0
+
+  # dart
+  equatable: any
+  json_annotation: any
+  freezed_annotation: any
+  dartz: ^0.10.0
+
+  # device
+  url_launcher: ^6.0.12
+  barcode_scan2: ^4.1.4
+  package_info: ^2.0.2
+  location: ^4.3.0
+  flutter_hms_gms_availability: ^2.0.0
+  huawei_location: ^5.1.0+303
+  path_provider: ^2.0.7
+  device_calendar: ^4.0.1
+  flutter_native_timezone: ^2.0.0
+  permission_handler: ^8.3.0
+  connectivity_plus: ^2.2.0
+
+  #data
+  dio: ^4.0.4
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.1.0
+
+  #util
+  easy_mask: ^2.0.1
+  encrypt: ^5.0.1
+  supercharged: ^2.1.1
+  auto_route: ^3.2.0
+  easy_localization: ^3.0.0
+  move_to_background: ^1.0.2
+  mocktail: ^0.2.0
+  geodesy: ^0.4.0-nullsafety.0
+  uni_links: ^0.5.1
+
+  # state management + DI
+  get_it: ^7.2.0
+  flutter_bloc: ^8.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # generators
+  build_runner: any
+  auto_route_generator: any
+  json_serializable: any
+  freezed: any
+
+  #analysis
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/images/bottom_bar_icons/
+    - assets/images/icons/
+
+  fonts:
+    #Gotham
+    - family: GothamBold
+      fonts:
+        - asset: assets/fonts/gotham/GothamBold.ttf
+
+    - family: GothamMedium
+      fonts:
+        - asset: assets/fonts/gotham/GothamBook.ttf
+
+    - family: GothamBook
+      fonts:
+        - asset: assets/fonts/gotham/GothamBook.ttf
+
+    #Rabar
+    - family: RabarBold
+      fonts:
+        - asset: assets/fonts/Rabar/Rabar_013.ttf
+
+    - family: RabarMedium
+      fonts:
+        - asset: assets/fonts/Rabar/Rabar_015.ttf
+
+    - family: RabarBook
+      fonts:
+        - asset: assets/fonts/Rabar/Rabar_014.ttf
