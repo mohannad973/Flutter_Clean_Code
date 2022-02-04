@@ -35,22 +35,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   # view
-  percent_indicator: ^3.0.1
-  carousel_slider: ^4.0.0
   fluttertoast: ^8.0.8
   loading_animations: ^2.2.0
-  flutter_slidable: ^1.1.0
   flutter_svg: ^1.0.3
   simple_animations: ^4.0.0
   introduction_screen: ^2.1.0
-  responsive_framework: ^0.1.4
-  flutter_typeahead: ^3.2.1
-  infinite_scroll_pagination: ^3.1.0
-  video_player: ^2.2.5
-  flutter_map: ^0.14.0
-  webview_flutter: ^2.1.0
-  flip_card: ^0.6.0
   shimmer: ^2.0.0
+  responsive_framework: ^0.1.5
 
   # dart
   equatable: any
@@ -59,16 +50,6 @@ dependencies:
   dartz: ^0.10.0
 
   # device
-  url_launcher: ^6.0.12
-  barcode_scan2: ^4.1.4
-  package_info: ^2.0.2
-  location: ^4.3.0
-  flutter_hms_gms_availability: ^2.0.0
-  huawei_location: ^5.1.0+303
-  path_provider: ^2.0.7
-  device_calendar: ^4.0.1
-  flutter_native_timezone: ^2.0.0
-  permission_handler: ^8.3.0
   connectivity_plus: ^2.2.0
 
   #data
@@ -79,14 +60,8 @@ dependencies:
 
   #util
   easy_mask: ^2.0.1
-  encrypt: ^5.0.1
-  supercharged: ^2.1.1
   auto_route: ^3.2.0
   easy_localization: ^3.0.0
-  move_to_background: ^1.0.2
-  mocktail: ^0.2.0
-  geodesy: ^0.4.0-nullsafety.0
-  uni_links: ^0.5.1
 
   # state management + DI
   get_it: ^7.2.0

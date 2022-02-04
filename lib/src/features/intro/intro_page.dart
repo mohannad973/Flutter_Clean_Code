@@ -61,11 +61,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
     }
   }
 
-
-  // Future<void> _onIntroEnd() async {
-  //
-  //   context.router.replaceNamed('main');
-  // }
   @override
   Widget build(BuildContext context) {
 
@@ -75,7 +70,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         children: [
           SizedBox(
             width: double.infinity,
-            height: 800,
+            height: 700,
             child: SafeArea(
               child: IntroductionScreen(
                 key: introKey,
